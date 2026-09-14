@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "weather-tool": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/weather/weather.csproj",
+                "--no-build"
+            ]
+        }
+    }
+}
