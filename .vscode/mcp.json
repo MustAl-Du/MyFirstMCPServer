@@ -9,6 +9,16 @@
                 "${workspaceFolder}/weather/weather.csproj",
                 "--no-build"
             ]
+        },
+        "clinicaltrials-tool": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/clinicaltrials/clinicaltrials.csproj",
+                "--no-build"
+            ]
         }
     }
 }
