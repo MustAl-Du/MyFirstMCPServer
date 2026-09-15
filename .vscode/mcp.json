@@ -19,6 +19,16 @@
                 "${workspaceFolder}/clinicaltrials/clinicaltrials.csproj",
                 "--no-build"
             ]
+        },
+        "pubmed-tool": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/pubmed/pubmed.csproj",
+                "--no-build"
+            ]
         }
     }
 }
