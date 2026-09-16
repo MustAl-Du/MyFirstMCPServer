@@ -6,7 +6,7 @@
             "args": [
                 "run",
                 "--project",
-                "${workspaceFolder}/weather/weather.csproj",
+                "${workspaceFolder}/Stdio/weather/weather.csproj",
                 "--no-build"
             ]
         },
@@ -16,7 +16,7 @@
             "args": [
                 "run",
                 "--project",
-                "${workspaceFolder}/clinicaltrials/clinicaltrials.csproj",
+                "${workspaceFolder}/Stdio/clinicaltrials/clinicaltrials.csproj",
                 "--no-build"
             ]
         },
@@ -26,7 +26,7 @@
             "args": [
                 "run",
                 "--project",
-                "${workspaceFolder}/pubmed/pubmed.csproj",
+                "${workspaceFolder}/Stdio/pubmed/pubmed.csproj",
                 "--no-build"
             ]
         }

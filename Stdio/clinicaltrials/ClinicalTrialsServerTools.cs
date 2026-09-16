@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Text.Json;
 
-namespace ClinicalTrialsServer.Tools;
+namespace ClinicalTrialsServer.Tools.Stdio;
 
 [McpServerToolType]
 public static class ClinicalTrialsTools

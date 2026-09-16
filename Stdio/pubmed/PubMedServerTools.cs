@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Text.Json;
 
-namespace PubMedServer.Tools;
+namespace PubMedServer.Tools.Stdio;
 
 [McpServerToolType]
 public static class PubMedTools
