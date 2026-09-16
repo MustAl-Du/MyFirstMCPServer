@@ -20,6 +20,10 @@
                 "--no-build"
             ]
         },
+        "clinicaltrials-streamable-tool": {
+            "type": "http",
+            "url": "http://localhost:3001/mcp"
+        },
         "pubmed-tool": {
             "type": "stdio",
             "command": "dotnet",
