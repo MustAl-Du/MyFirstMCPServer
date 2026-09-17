@@ -33,6 +33,10 @@
                 "${workspaceFolder}/Stdio/pubmed/pubmed.csproj",
                 "--no-build"
             ]
+        },
+        "pubmed-streamable-tool": {
+            "type": "http",
+            "url": "http://localhost:3002/mcp"
         }
     }
 }
